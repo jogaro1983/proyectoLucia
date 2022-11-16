@@ -1,0 +1,36 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bottom Navigation With CSS</title>
+  <link rel="stylesheet" media="all" href="app.component.css" />
+</head>
+<body>
+<div class="container">
+    <div class="nav">
+    <div class="nav-item">
+        <a class="borderlist" [routerLink]="['/']">Inicio</a>
+    </div>
+    <div class="nav-item">
+        <a class="borderlist" [routerLink]="['/app-main']">Fotos subidas</a>
+    </div>
+    <div class="nav-item">
+        <a class="borderlist" [routerLink]="['/view-pic']">Ver Fotos</a>
+    </div>
+    <div class="nav-item">
+        <a class="borderlist" [routerLink]="['/up-pic']">Subir Fotos</a>
+    </div>
+    <div class="nav-item">
+        <a class="borderlist" [routerLink]="['/edit-pic']">Modificar Fotos</a>
+        </div>
+    </div>
+</div>
+</body>
+</html> 
+<router-outlet></router-outlet>

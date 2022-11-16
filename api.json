@@ -1,0 +1,26 @@
+{
+  "fotos": [
+    {
+      "id": 1,
+      "path": "../assets/img/IMG-20200728-WA0011.jpg",
+      "data": "Ejemplo de texto detalle foto"
+    },
+    {
+      "id": 2,
+      "path": "../assets/img/IMG-20200731-WA0001.jpg",
+      "data": "Ejemplo de texto detalle foto Cantabria"
+    }
+  ],
+  "lugares": [
+    {
+      "id": 1,
+      "viaje": "Alpujarra",
+      "fotosId": 1
+    },
+    {
+      "id": 2,
+      "viaje": "Santander",
+      "fotosId": 2
+    }
+  ]
+}
