@@ -1,0 +1,51 @@
+{
+  "fotos": [
+    {
+      "id": 1,
+      "path": "C:\\Users\\jogar\\OneDrive\\Imágenes\\IMG-20200728-WA0011.jpg",
+      "data": "Ejemplo de texto detalle foto"
+    },
+    {
+      "id": 2,
+      "path": "C:\\fakepath\\Jose_DNI_C.png",
+      "data": "prueba 9"
+    },
+    {
+      "id": 3,
+      "path": "C:\\fakepath\\Merce_DNI_B_Alvaro.jpg",
+      "data": "Ejemplo de texto detalle foto con lugar"
+    },
+    {
+      "id": 4,
+      "path": "C:\\fakepath\\Merce_DNI_B.jpg",
+      "data": "Ejemplo de texto detalle foto con lugar"
+    },
+    {
+      "id": 5,
+      "path": "C:\\fakepath\\Registro_Hospital_B.jpg",
+      "data": "Ejemplo de texto detalle foto con fotoid"
+    }
+  ],
+  "lugares": [
+    {
+      "id": 1,
+      "viaje": "Alpujarra",
+      "fotosId": 1
+    },
+    {
+      "id": 2,
+      "viaje": "",
+      "fotosId": ""
+    },
+    {
+      "id": 3,
+      "viaje": "Melila",
+      "fotosId": ""
+    },
+    {
+      "id": 4,
+      "viaje": "Modejar",
+      "fotosId": ""
+    }
+  ]
+}

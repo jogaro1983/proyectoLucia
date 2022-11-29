@@ -1,0 +1,24 @@
+<p class="font-weight-light">SUBIR FOTOS</p>
+
+<form #frmFoto="ngForm" (ngSubmit)="upFoto()">
+  <div class="form-group">
+    <label for="descripcion">*Descripción:</label><input type="descripcion" #descripcion="ngModel" [(ngModel)]="datos_fotos.data" name="descripcion" class="form-control" placeholder="Descripción" required/>
+    <div class="form-control">
+      *El campo Descripción es obligatorio
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="descripcion">*Foto:</label><input type="file" class="form-control" #path="ngModel" [(ngModel)]="datos_fotos.path" name="path" placeholder="Ruta" required/>   
+    <div class="form-control">
+      *El campo Foto es obligatorio
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="viaje">*Viaje:</label><input type="viaje" #viaje="ngModel" [(ngModel)]="datos_lugares.viaje" name="viaje" class="form-control" placeholder="Viaje" required/>
+    <div class="form-control">
+      *El campo Viaje es obligatorio
+    </div>
+  </div>
+  <input type="hidden" #fotosId="ngModel" [(ngModel)]="datos_lugares.fotosId" name="fotosId" class="form-control" placeholder="fotosId" value={{datos_fotos.id}}/>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
